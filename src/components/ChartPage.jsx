@@ -56,6 +56,9 @@ const ChartPage = ({Coin, id}) => {
                     <option value='7d'>7d</option>
                     <option value='30d'>30d</option>
                     <option value='3m'>3m</option>
+                    <option value='1y'>1y</option>
+                    <option value='3y'>3y</option>
+                    <option value='5y'>5y</option>
                 </select>
             
             <div className='selectandpriceoptionsandchange'>
