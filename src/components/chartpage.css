@@ -1,0 +1,72 @@
+.chartpage{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Nunito Sans', sans-serif; 
+    margin-bottom: 3em;
+}
+
+.chartpage .header{
+    text-align: center;
+    color: #1e9b67;
+    margin-bottom: 5px;
+}
+
+.chartpage .live-price{
+    text-align: center;
+    color: #1e9b67;
+    margin-bottom: 10px;
+}
+
+.chartpage  .selectandprice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chartpage .selectandprice .selectandpriceoptions{
+    padding: 5px 20px;
+    color: #1e9b67;
+    border: 1px solid #1e9b67;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+.chartpage .selectandprice .selectandpriceoptionsandchange .pricechanges{
+    color: #556e63;
+    margin-bottom: 5px;
+}
+
+.chartpage .selectandprice .selectandpriceoptionsandchange .pricechanges span{
+    color: #1e9b67;
+}
+
+.chartpage .selectandprice .selectandpriceoptionsandchange .cryptoprice{
+    color: #556e63;
+}
+
+.chartpage .selectandprice .selectandpriceoptionsandchange .cryptoprice span{
+    color: #1e9b67;
+}
+
+
+@media screen and (max-width: 576px) {
+    .chartpage  .selectandprice{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .chartpage .selectandprice .selectandpriceoptionsandchange{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .chartpage .selectandprice .selectandpriceoptions{
+        margin-bottom: 10px;
+    }
+}

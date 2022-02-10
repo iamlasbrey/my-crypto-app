@@ -1,0 +1,47 @@
+.generic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.generic h1{
+    color: #1e9b67;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.generic h2{
+    color: #1e9b67;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.generic button{
+    padding: 20px 40px;
+    font-size: 1.1rem;
+    background: #1e9b67;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 500px;
+    transition: all .2s ease-in;
+}
+
+.generic button a{
+    color: white;
+}
+.generic button a:hover{
+    color: #1e9b67;
+}
+
+.generic button:hover{
+    color: #1e9b67;
+    background: white;
+    border: 1px solid #1e9b67;
+}
+
+.generic button:hover a{
+    color: #1e9b67;
+}

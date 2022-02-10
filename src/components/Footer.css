@@ -1,0 +1,13 @@
+.footer{
+    font-family: 'Montserrat', sans-serif;
+    background: #e4f8f5;
+    text-align: center;
+    width: 100%;
+    padding: 2em 0em;
+    position:fixed;
+    bottom:0;
+}
+
+.footer h5{
+    color: #1e9b67;
+}

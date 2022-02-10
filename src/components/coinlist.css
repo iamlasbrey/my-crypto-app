@@ -1,0 +1,28 @@
+.coinlist-container{
+    margin-top: 2.5em;
+    margin-bottom: 3em;
+}
+
+.coinlist-items{
+    max-width: 1200px;
+    width: 90%;
+    display: grid;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.error-coin{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 2rem;
+    color: #1e9b67;
+    margin: 1.5em 0em;
+}
+
+@media screen and (min-width: 576px) {
+    .coinlist-items {
+        grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
+    }
+}

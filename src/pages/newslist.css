@@ -1,0 +1,29 @@
+.newslist{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.newslist h1{
+    color: #1e9b67;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+
+.newslist-items{
+    display: grid;
+    display: grid;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+
+
+@media screen and (min-width: 576px) {
+    .newslist-items {
+        grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
+    }
+}

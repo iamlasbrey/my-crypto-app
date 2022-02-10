@@ -1,0 +1,40 @@
+.sidepage-container{
+    width: 50%;
+    position: absolute;
+    background-color: white;
+    border-left: 2px solid #1e9b67;
+    width: 250px;
+    height: 100vh;
+    right: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 3em 0em 0em 0em;
+    color: #1e9b67;
+    transition: all .2s ease-in;
+}
+@media (min-width: 600px) {
+    .sidepage-container{
+        display: none;
+    }
+}
+
+.sidepage-content{
+    margin-bottom: 3em;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.sidepage-content:hover{
+    background-color: #1e9b67;
+    color: white;
+}
+
+.times{
+    text-align: right;
+    padding-right: 1em;
+    margin-bottom: 1em;
+    font-size: 2.5rem;
+    cursor: pointer;
+}

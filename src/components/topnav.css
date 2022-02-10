@@ -1,0 +1,44 @@
+.topnav-content{
+    background-color: #e4f8f5;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 2em;
+}
+
+.topnav{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em 0em;
+}
+
+.topnav h1{
+    color: #1e9b67;
+    margin-bottom: 1em;
+}
+
+.topnav h3{
+    color: #556e63;
+}
+
+.homepage p{
+    color: #1e9b67;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.homepagefeatures{
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+
+@media screen and (min-width: 576px) {
+    .homepagefeatures{
+        grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
+    }
+}
+
+

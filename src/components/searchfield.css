@@ -1,0 +1,33 @@
+.searchfield{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:600px) {
+    .searchfield{
+        flex-direction: column;
+    }
+    .searchfield h1{
+        font-size: 1.5rem;
+    }
+}
+
+.searchfield h1{
+    color: #1e9b67;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.input-style{
+    width: 350px;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #1e9b67;
+    padding-left: 10px ;
+}
