@@ -17,7 +17,7 @@ const Chart = ({PriceHistoryData, Coin}) => {
     }
 
     const myData = {
-        labels: TimeStamps.reverse(),
+        labels: TimeStamps,
         datasets:[
             {
                 label: `${Coin.name}`,
