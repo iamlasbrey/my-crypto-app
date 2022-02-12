@@ -17,7 +17,7 @@ const Chart = ({PriceHistoryData, Coin}) => {
     }
 
     const myData = {
-        labels: TimeStamps,
+        labels: TimeStamps.reverse(),
         datasets:[
             {
                 label: `${Coin.name}`,
@@ -31,11 +31,22 @@ const Chart = ({PriceHistoryData, Coin}) => {
     }
 
     const options = {
+        legend:{
+            reverse: false
+        },  
         scales: {
             yAxes: [
                 {
                 ticks: {
                     beginAtZero: true,
+                },
+                },
+            ],
+            xAxes: [
+                {
+                ticks: {
+                    reverse: true,
+                    position: 'left'
                 },
                 },
             ],
